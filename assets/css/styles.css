@@ -1,52 +1,94 @@
+body {
+	background-image: url(../../assets/images/Suminagashi-1.jpg);
+}
+
 h1 {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
-	padding: 30px;
+	padding: 25px;
 	margin-bottom: 0px;
 	height: 100px;
 }
 
 h2 {
 	color: #4aaaa5;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-div.col-sm-8 text-left {
+.row {
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
+	margin: 20px;
+	padding: 20px;
+}
+
+div.container text-left {
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	margin: 20px;
+	padding: 20px;
 }
 
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
 	padding-bottom: 0;
+	border-bottom: 1px solid #dddddd;
+	background-color: #ffffff;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {
+.navbar a {
+	color: #777777;
+	text-align: center;
+
+	margin-top: 50px;
+	padding: 4px 6px;
+	text-decoration: none;
+	border: 1px solid #dddddd;
+}
+
+.topnav a:hover {
+	background-color: lightblue;
+	color: blanchedalmond;
+}
+
+.card {
+	margin: 20px;
+	padding: 20px;
+}
+
+img.hoverzoomlink {
+	margin-left: 10px;
+}
+
+.row {
 	height: 450px;
 }
 
-/* Set gray background color and 100% height */
 .sidenav {
 	padding-top: 20px;
-	background-image: url("../../assets/images/White-Subtle-Texture08.jpg");
+	background-image: url("../../assets/images/Suminagashi-1.jpg");
 	height: 100%;
 }
 
-/* Set black background color, white text and some padding */
 footer {
 	background-color: #555;
+	text-align: center;
 	color: white;
 	padding: 15px;
 	margin-top: 25px;
 	border-top: 8px solid #4aaaa5;
+	height: 100px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
+div.col-md-12 {
+	height: 50px;
+}
+
 @media screen and (max-width: 767px) {
 	.sidenav {
 		height: auto;
