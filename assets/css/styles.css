@@ -98,3 +98,83 @@ div.col-md-12 {
 		height: auto;
 	}
 }
+
+/* Portfolio css */
+
+div.gallery {
+	margin: 5px;
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: 178px;
+	height: 178px;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	font-family: Arial;
+}
+
+.text-block {
+	position: absolute;
+	width: 100%;
+	bottom: -130px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 0px;
+	text-align: center;
+}
+
+/*Contactsectioncss*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #3c8581;
+}
+
+/* Style the container/contact section */
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
