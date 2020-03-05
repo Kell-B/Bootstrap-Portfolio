@@ -35,6 +35,11 @@ h2 {
 	color: white;
 }
 
+img {
+	float: left;
+	margin-right: 20px;
+}
+
 .card {
 	padding: 20px;
 }
@@ -43,8 +48,13 @@ h2 {
 	margin: 5px;
 }
 
+.card-img-overlay {
+	padding: 15px;
+	padding-top: 5px;
+}
+
 .col-md-2 {
-	background-image: url(../assets/images/White-Subtle-Texture01.jpg);
+	background-image: url(../../assets/images/Suminagashi-1.jpg);
 }
 
 .col-md-6 {
@@ -60,17 +70,17 @@ h2 {
 	background-color: #555;
 	text-align: center;
 	color: white;
-	padding: 15px;
+	padding-top: 50px;
 	border-top: 8px solid #4aaaa5;
 	height: 100px;
 }
 
 .text-block {
-	position: absolute;
+	position: sticky;
 	width: 100%;
-	bottom: -130px;
 	background-color: #4aaaa5;
 	color: white;
 	margin-left: 0px;
 	text-align: center;
+	padding-top: 30px;
 }
