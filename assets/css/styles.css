@@ -2,10 +2,9 @@ h1 {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
 	padding: 25px;
-	margin-bottom: 0px;
+	margin: 0px;
 	height: 100px;
 }
 
@@ -15,100 +14,55 @@ h2 {
 	margin-top: 20px;
 }
 
-.row {
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
-	margin: 20px;
-	padding: 20px;
-}
-
-div.container text-left {
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
-	margin: 20px;
-	padding: 20px;
-}
-
 .navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-	padding-bottom: 0;
-	border-bottom: 1px solid #dddddd;
 	background-color: #ffffff;
+	padding-bottom: 0px;
 }
 
 .navbar a {
 	color: #777777;
 	text-align: center;
-
+	padding-bottom: 0px;
 	margin-top: 50px;
-	padding: 4px 6px;
+	padding: 10px 12px;
+	margin-left: 1px;
+	margin-right: 1px;
 	text-decoration: none;
-	border: 1px solid #dddddd;
 }
 
-.topnav a:hover {
+.navbar a:hover {
 	background-color: lightblue;
-	color: blanchedalmond;
+	color: white;
 }
 
-img.hoverzoomlink {
-	margin-left: 10px;
+.card {
+	padding: 20px;
 }
 
-footer {
+.cardimg {
+	margin: 5px;
+}
+
+.col-md-2 {
+	background-image: url(../assets/images/White-Subtle-Texture01.jpg);
+}
+
+.col-md-6 {
+	border-bottom: 1px solid #777777;
+}
+
+.col-md-8 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer {
 	background-color: #555;
 	text-align: center;
 	color: white;
 	padding: 15px;
-	margin-top: 25px;
 	border-top: 8px solid #4aaaa5;
 	height: 100px;
-}
-
-div.col-md-12 {
-	height: 50px;
-}
-
-@media screen and (max-width: 767px) {
-	.sidenav {
-		height: auto;
-		padding: 15px;
-	}
-	.row.content {
-		height: auto;
-	}
-}
-
-/* Portfolio css */
-
-div.gallery {
-	margin: 5px;
-	margin-bottom: 0px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-}
-
-div.gallery:hover {
-	border: 1px solid #777;
-}
-
-div.gallery img {
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	width: 178px;
-	height: 178px;
-}
-
-div.desc {
-	padding: 15px;
-	text-align: center;
-}
-
-.container {
-	position: relative;
-	font-family: Arial;
 }
 
 .text-block {
@@ -120,48 +74,3 @@ div.desc {
 	margin-left: 0px;
 	text-align: center;
 }
-
-@media screen and (max-width: 500px) {
-	.img {
-		height: 100;
-		width: 200;
-		padding: 15px;
-	}
-	.row.content {
-		height: auto;
-	}
-}
-
-/*Contactsectioncss*/
-
-* {
-	box-sizing: border-box;
-}
-
-/* Style inputs */
-input[type=text],
-select,
-textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-}
-
-input[type=submit] {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	cursor: pointer;
-}
-
-input[type=submit]:hover {
-	background-color: #3c8581;
-}
-
-/* Style the container/contact section */
-
-/* Clear floats after the columns */
