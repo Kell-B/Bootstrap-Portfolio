@@ -1,11 +1,26 @@
+body {
+	background-image: url(../../assets/images/Suminagashi-1.jpg);
+}
+
 h1 {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
 	padding: 25px;
-	margin: 0px;
-	height: 100px;
+	padding-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	height: 115px;
+}
+
+.row1 {
+	margin: 20px;
+	margin-right: 20px;
+}
+
+.row2 {
+	background-color: #ffffff;
 }
 
 h2 {
@@ -16,14 +31,14 @@ h2 {
 
 .navbar {
 	background-color: #ffffff;
-	padding-bottom: 0px;
+	padding: 0px;
 }
 
 .navbar a {
 	color: #777777;
 	text-align: center;
 	padding-bottom: 0px;
-	margin-top: 50px;
+	margin-top: 70px;
 	padding: 10px 12px;
 	margin-left: 1px;
 	margin-right: 1px;
@@ -53,26 +68,42 @@ img {
 	padding-top: 5px;
 }
 
-.col-md-2 {
-	background-image: url(../../assets/images/Suminagashi-1.jpg);
+.col-md-6-top {
+	border-bottom: 1px solid #777777;
+	background-color: #ffffff;
 }
 
 .col-md-6 {
-	border-bottom: 1px solid #777777;
+	background-color: #ffffff;
 }
 
-.col-md-8 {
-	margin: 0px;
+.col-md-6 header {
+	padding-left: 20px;
+}
+
+.col-md-12 {
+	padding: 20px;
+}
+
+.container-fluid {
 	padding: 0px;
 }
 
 .footer {
+	position: absolute;
+	bottom: 0;
 	background-color: #555;
 	text-align: center;
 	color: white;
-	padding-top: 50px;
+	margin-bottom: 0px;
 	border-top: 8px solid #4aaaa5;
 	height: 100px;
+	width: 100%;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 .text-block {
@@ -83,4 +114,13 @@ img {
 	margin-left: 0px;
 	text-align: center;
 	padding-top: 30px;
+}
+
+.btn {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.btn a {
+	color: white;
 }
